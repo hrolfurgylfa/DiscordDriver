@@ -1,0 +1,5 @@
+# Run the bot with global commands, this should be True when deployed and false
+# when being tested, as it can take up to an hour to update global commands,
+# but guild commands update instantly on the server IDs specified below.
+USE_GLOBAL_COMMANDS = False
+COMMAND_GUILDS = []
