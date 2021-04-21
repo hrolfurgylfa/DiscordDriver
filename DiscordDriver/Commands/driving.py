@@ -31,7 +31,6 @@ class Driving(commands.Cog):
     def get_next_category(
         all: List[CategoryChannel], current: CategoryChannel, up: bool
     ) -> CategoryChannel:
-        print([c.name for c in all])
         category_num = all.index(current)
         new_category_num = category_num + (-1 if up else 1)
 
